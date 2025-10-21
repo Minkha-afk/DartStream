@@ -23,7 +23,7 @@ Responsive marketing site built with Nuxt 3 + Tailwind CSS. SVG‑driven visuals
 
 ## 🚀 Live Demo
 
-https://dart-stream-dgr1509zk-minkha-afks-projects.vercel.app/
+https://dart-stream-oeavzhxyl-minkha-afks-projects.vercel.app/
 
 ## Table of Contents
 - [Features](#features)
