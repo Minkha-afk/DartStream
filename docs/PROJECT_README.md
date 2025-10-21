@@ -2,6 +2,10 @@
 
 An opinionated Nuxt 3 + Tailwind CSS app powering the DartStream marketing site with responsive pages, SVG-driven visuals, and consistent design across desktop and mobile.
 
+## 🚀 Live Demo
+
+https://dart-stream-dgr1509zk-minkha-afks-projects.vercel.app/
+
 ## Contents
 - Features
 - Tech Stack
@@ -178,6 +182,10 @@ Tips:
 - SVG invisible: check `fill`/`stroke` vs background; bump size to `w-6 h-6`.
 - Scroll-snap not working: ensure child widths are fixed (`w-[320px]`) and parent has `overflow-x-auto` + `snap-x snap-mandatory`.
 - Port in use: change dev port or stop the conflicting process.
+
+## 📝 Notes on Tradeoffs
+
+To stay within the recommended 6-8 hour timebox, I prioritized a clean component architecture and achieving responsiveness. With additional time, I would have implemented transition animations for interactive elements like the mobile menu to enhance the user experience.
 
 ## 🤝 Contributing
 1. Branch from `main`.

@@ -21,6 +21,10 @@ Responsive marketing site built with Nuxt 3 + Tailwind CSS. SVG‑driven visuals
 
 </div>
 
+## 🚀 Live Demo
+
+https://dart-stream-dgr1509zk-minkha-afks-projects.vercel.app/
+
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -132,6 +136,10 @@ Tips: ensure color contrast; size with `w-5 h-5`/`w-6 h-6`; use `flex-shrink-0` 
 - SVG not visible: check `fill`/`stroke` vs background; try `w-6 h-6`.
 - Scroll-snap: child width fixed (`w-[320px]`), parent has `overflow-x-auto` + `snap-x snap-mandatory`.
 - Port in use: change dev port or stop overlapping process.
+
+## 📝 Notes on Tradeoffs
+
+To stay within the recommended 6-8 hour timebox, I prioritized a clean component architecture and achieving responsiveness. With additional time, I would have implemented transition animations for interactive elements like the mobile menu to enhance the user experience.
 
 ## Contributing
 1. Branch from `main`
