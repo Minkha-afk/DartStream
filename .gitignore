@@ -1,3 +1,6 @@
+# Always include icons (SVGs) in assets/icons
+!assets/icons/
+!assets/icons/*.svg
 ########################################
 # Nuxt 3 / Vite / Node .gitignore
 ########################################
