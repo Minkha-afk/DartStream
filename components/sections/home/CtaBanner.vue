@@ -1,7 +1,7 @@
 <template>
   <section class="w-full py-10">
     <div class="w-full max-w-7xl mx-auto px-6">
-      <!-- Mobile: mimic FinalCta -->
+      
       <div class="md:hidden w-full rounded-[28px] p-8 flex items-center justify-center" style="background: radial-gradient(circle at center, #6366f1 0%, #42489E 55%)">
         <div class="w-full max-w-sm mx-auto flex flex-col items-center justify-center gap-6">
           <div class="w-full flex flex-col items-center gap-2">
@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <!-- Desktop/Tablet: keep original layout -->
+      
       <div class="desktop-cta hidden md:block w-full">
         <div class="w-full p-16 bg-[#e6e7f4] rounded-2xl flex justify-between items-center">
           <div class="w-[768px] inline-flex flex-col justify-start items-start gap-4">
@@ -59,7 +59,6 @@ import WhitecloudSvg from '~/assets/icons/whitecloud.svg'
 
 <style scoped>
 @media (max-width: 767px) {
-  /* Hard-enforce hiding desktop CTA on small screens */
   .desktop-cta { display: none !important; }
 }
 </style>

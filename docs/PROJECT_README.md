@@ -4,7 +4,7 @@ An opinionated Nuxt 3 + Tailwind CSS app powering the DartStream marketing site 
 
 ## 🚀 Live Demo
 
-https://dart-stream-oeavzhxyl-minkha-afks-projects.vercel.app/
+(https://dart-stream-6gugqz9rf-minkha-afks-projects.vercel.app/)
 
 ## Contents
 - Features

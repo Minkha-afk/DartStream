@@ -1,9 +1,9 @@
 <template>
   <div class="signin-page min-h-screen">
-    <!-- Header Component -->
+    
     <TheHeader />
     
-    <!-- Sign In Content Section -->
+    
     <section class="w-full py-16 pt-56 flex justify-center items-center min-h-[calc(100vh-200px)]">
       <div class="inline-flex justify-start items-center gap-32">
         <div class="w-[502px] inline-flex flex-col justify-start items-start gap-7">
@@ -99,13 +99,13 @@
       </div>
     </section>
     
-    <!-- Footer Component -->
+    
     <TheFooter />
   </div>
 </template>
 
 <script setup lang="ts">
-// Sign in page with proper Nuxt.js layout
+ 
 import ArrowSvg from '~/assets/icons/arrow.svg'
 import TickSvg from '~/assets/icons/tick.svg'
 </script>

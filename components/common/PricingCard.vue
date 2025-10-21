@@ -66,7 +66,6 @@ const props = defineProps({
   }
 })
 
-// Dynamically sets classes for the whole card
 const cardClasses = computed(() => {
   let base = "w-[320px] md:w-96 min-h-[773px] p-6 rounded-2xl shadow-lg flex flex-col items-start gap-6 overflow-hidden "
   if (props.isPopular) {
@@ -76,12 +75,10 @@ const cardClasses = computed(() => {
   }
 })
 
-// Dynamically sets card style for gradient background
 const cardStyle = computed(() => {
   return props.isPopular ? 'background: radial-gradient(circle at center, #6366f1 0%, #42489E 50%)' : ''
 })
 
-// Dynamically sets text color
 const textClasses = computed(() => {
   return props.isPopular ? "text-white" : "text-black"
 })

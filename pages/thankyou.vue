@@ -14,15 +14,15 @@
         </div>
       </div>
     </div>
-    <!-- Thank you page content (out of scope) -->
+    
     <TheFooter />
   </div>
 </template>
 
 <script setup lang="ts">
-// Add your thank you page logic here
+ 
 </script>
 
 <style scoped>
-/* Add your thank you page styles here */
+ 
 </style>

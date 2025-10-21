@@ -6,7 +6,7 @@
         <template #subtitle>Choose the Right Plan: Explore the Core Features of Our Free and Paid Versions</template>
       </CommonSectionTitle>
 
-      <!-- Mobile slider -->
+      
       <div class="md:hidden w-full -mx-6 px-6">
         <div class="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide" style="scroll-padding-left: 1.5rem;">
           <div class="shrink-0 snap-start w-[320px]">
@@ -19,7 +19,7 @@
             <CommonPricingCard :plan="customPlan" />
           </div>
         </div>
-        <!-- Pagination dots mimic -->
+        
         <div class="w-full flex items-center justify-center gap-2 mt-6">
           <span class="w-16 h-2 rounded-full bg-[#42489E]"></span>
           <span class="w-2 h-2 rounded-full bg-gray-300"></span>
@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <!-- Desktop grid -->
+      
       <div class="hidden md:inline-flex w-full justify-center items-start gap-16">
         <CommonPricingCard :plan="standardPlan" />
         <CommonPricingCard :plan="enhancePlan" :is-popular="true" />
@@ -44,7 +44,7 @@
 <script setup>
 import { ref } from 'vue'
 
-// Standard Plan Data
+ 
 const standardPlan = ref({
   name: 'Standard Plan',
   price: '$10',
@@ -63,7 +63,7 @@ const standardPlan = ref({
   ]
 })
 
-// Enhance Plan Data
+ 
 const enhancePlan = ref({
   name: 'Enhance Plan',
   price: '$250',
@@ -82,7 +82,7 @@ const enhancePlan = ref({
   ]
 })
 
-// Custom Plan Data
+ 
 const customPlan = ref({
   name: 'Custom Plan',
   price: 'Custom',

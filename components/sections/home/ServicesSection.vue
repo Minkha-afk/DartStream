@@ -10,7 +10,7 @@
       </template>
     </CommonSectionTitle>
 
-    <!-- Mobile: modern grid mimic from screenshot -->
+    
     <div class="md:hidden grid grid-cols-1 gap-4 w-full max-w-3xl">
       <ServiceCardMobile
         v-for="(service, idx) in services"
@@ -20,7 +20,7 @@
       />
     </div>
 
-    <!-- Desktop: original inline layout -->
+    
     <div class="hidden md:inline-flex justify-start items-start gap-7">
       <CommonServiceCard
         v-for="service in services"
@@ -40,7 +40,7 @@ import DataIcon from '~/assets/icons/data.svg'
 import CloudIcon from '~/assets/icons/clou.svg'
 import ServiceCardMobile from '~/components/common/ServiceCardMobile.vue'
 
-// All your data is now cleanly stored here!
+ 
 const services = ref([
   {
     title: 'Flexible Deployment',

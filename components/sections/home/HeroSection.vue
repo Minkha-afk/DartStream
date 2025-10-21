@@ -34,7 +34,6 @@
       <Clou class="w-full h-full object-contain" />
     </div>
 
-    <!-- Container for the action buttons -->
     <div class="inline-flex flex-col items-center justify-start gap-4 sm:flex-row sm:gap-6">
       <NuxtLink href="/signin">
         <CommonAppButton variant="primary">
@@ -56,14 +55,12 @@
       <Cloue class="w-full h-full" />
     </div>
 
-    <!-- Mobile: show a scaled dashboard image -->
     <div class="mt-6 md:hidden flex justify-center">
       <img src="~/assets/images/Dashboard1.png" alt="Dashboard"
            class="w-full max-w-[360px] h-auto"
       />
     </div>
 
-    <!-- Desktop: original large dashboard image -->
     <div class="mt-4 hidden md:flex justify-start">
       <img src="~/assets/images/Dashboard1.png" alt="Dashboard" style="width: 912px; height: 728px;" />
     </div>
@@ -72,9 +69,9 @@
 </template>
 
 <script setup lang="ts">
-// Import Dart logo SVG
+ 
 import DartSvg from '~/assets/icons/dart.svg'
-// Import Cloud SVG
+ 
 import ClouSvg from '~/assets/icons/clou.svg'
 import Clou from '~/assets/icons/cloud.svg'
 import Cloue from '~/assets/icons/cld1.svg'

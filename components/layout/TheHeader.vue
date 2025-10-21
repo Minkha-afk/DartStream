@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Spacer div that maintains header space when not scrolled -->
+    
     <div v-if="!isScrolled" class="w-full h-20"></div>
     
     <header 
@@ -15,7 +15,7 @@
         <DartStreamSvg class="h-6" />
       </NuxtLink>
 
-      <!-- Desktop Navigation -->
+      
       <nav class="hidden md:flex justify-center items-center gap-10">
         <NuxtLink href="/" class="text-center text-indigo-800 text-base font-semibold font-poppins leading-normal tracking-wide">Home</NuxtLink>
         <NuxtLink href="/pricing" class="text-center text-indigo-800 text-base font-normal font-poppins leading-normal tracking-wide">Pricing</NuxtLink>
@@ -31,7 +31,7 @@
         </NuxtLink>
       </div>
 
-      <!-- Mobile Hamburger Icon -->
+      
       <div class="md:hidden">
         <button @click="isMobileMenuOpen = !isMobileMenuOpen">
           <HamSvg class="w-8 h-8 text-indigo-800" />
@@ -39,7 +39,7 @@
       </div>
     </header>
 
-    <!-- Mobile Menu -->
+    
     <div v-if="isMobileMenuOpen" class="fixed top-20 left-0 w-full bg-white z-40 md:hidden">
       <nav class="flex flex-col items-center gap-4 py-4">
         <NuxtLink href="/" @click="isMobileMenuOpen = false" class="text-center text-indigo-800 text-base font-semibold font-poppins leading-normal tracking-wide">Home</NuxtLink>
@@ -78,5 +78,5 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Styles handled inline for better transition control */
+ 
 </style>
