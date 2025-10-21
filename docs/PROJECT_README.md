@@ -63,6 +63,7 @@ Stream/
     faq.vue
     signin.vue
     thankyou.vue
+    coming-soon
   nuxt.config.ts
   package.json
   tailwind config (if present)

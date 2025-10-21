@@ -58,7 +58,7 @@ components/
 	common/ (buttons, cards, titles)
 	layout/ (TheHeader, TheFooter)
 	sections/home/ (Hero, Services, Partners, HowItWorks, PricingSection, CtaBanner, FinalCta)
-pages/ (index, pricing, faq, signin, thankyou)
+pages/ (index, pricing, faq, signin, thankyou,coming-soon)
 assets/icons (svg icons)
 assets/images (dashboard)
 ```
