@@ -34,6 +34,7 @@ https://dart-stream-6gugqz9rf-minkha-afks-projects.vercel.app/
 - [Scripts](#scripts)
 - [Mobile vs Desktop](#mobile-vs-desktop)
 - [Key Components](#key-components)
+- [Navigation & Links](#navigation--links)
 - [SVG Usage](#svg-usage)
 - [Tailwind Conventions](#tailwind-conventions)
 - [Pricing Page](#pricing-page)
@@ -109,6 +110,16 @@ Special cases:
 - `components/sections/home/ServicesSection.vue` – desktop/mobile split with dedicated components.
 - `components/sections/home/PricingSection.vue` – mobile card slider on home page.
 - `pages/pricing.vue` – full pricing with a mobile plan toggle + desktop comparison table.
+
+## Navigation & Links
+- Header navigation uses NuxtLink to route between pages:
+	- Home → `/`
+	- Pricing → `/pricing`
+	- Docs → `/thankyou`
+	- FAQ → `/faq`
+- Primary CTAs (Cloud / Open Source buttons, and CTA Banner buttons) link to the sign-in page: `/signin`.
+- The "View full price comparison" action routes to the full pricing page: `/pricing`.
+- Footer contains link groups for Company and Resources. Some entries are placeholders (`#`) you can wire up to real routes or external URLs.
 
 ## SVG Usage
 ```vue
