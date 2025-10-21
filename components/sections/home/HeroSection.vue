@@ -56,9 +56,14 @@
       <Cloue class="w-full h-full" />
     </div>
 
-    <!-- 
-      Dashboard image container with fixed dimensions
-    -->
+    <!-- Mobile: show a scaled dashboard image -->
+    <div class="mt-6 md:hidden flex justify-center">
+      <img src="~/assets/images/Dashboard1.png" alt="Dashboard"
+           class="w-full max-w-[360px] h-auto"
+      />
+    </div>
+
+    <!-- Desktop: original large dashboard image -->
     <div class="mt-4 hidden md:flex justify-start">
       <img src="~/assets/images/Dashboard1.png" alt="Dashboard" style="width: 912px; height: 728px;" />
     </div>
