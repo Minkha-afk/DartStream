@@ -1,0 +1,29 @@
+/* Global font styles */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body, html {
+  background: linear-gradient(180deg, #e6e7f3 0%, #ffffff 100%) !important;
+  background-attachment: fixed !important;
+  min-height: 100vh !important;
+}
+
+/* Ensure gradient is always applied */
+.bg-main-gradient {
+  background: linear-gradient(180deg, #e6e7f1 0%, #ffffff 100%) !important;
+}
+
+/* Override global background for specific sections */
+footer {
+  background: #e6e7f4 !important;
+}
+
+/* CTA Banner specific background override */
+.bg-\[#e6e7f4\] {
+  background: #e6e7f4 !important;
+}
