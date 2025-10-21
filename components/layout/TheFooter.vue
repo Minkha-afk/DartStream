@@ -51,6 +51,6 @@
 
 <script setup>
 import GitSvg from '~/assets/icons/git.svg'
-import dartLogo from '~/assets/icons/dartLogo.svg'
+import dartLogo from '~/assets/icons/dartlogo.svg'
 import Dartstream from '~/assets/icons/dartstream.svg'
 </script>
